@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="303dp"
+        android:layout_height="117dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10sp"
+        android:backgroundTint="#954CA1"
+        android:fontFamily="cursive"
+        android:text="select date"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:paddingTop="5sp"
+        android:text="dd/mm/yyyy"
+        android:textAlignment="center"
+        android:textColor="@color/datecolour"
+        android:textSize="55dp" />
+
+    <TextView
+        android:id="@+id/selected_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingTop="70dp"
+        android:text="selected date"
+        android:textAlignment="center"
+        android:textColor="#0C0101"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/minute"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:paddingTop="50dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/minutes"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:fontFamily="cursive"
+        android:paddingTop="50dp"
+        android:text="IN MINUTES TILL DATE"
+        android:textAlignment="center"
+        android:textColor="#0C0303"
+        android:textSize="50dp" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1A3C6"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10sp"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="66dp"
+        android:background="#A677AE"
+        android:fontFamily="cursive"
+        android:text="Age to minute calculator"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/calculate"
+        android:layout_width="373dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:paddingTop="15sp"
+        android:text="calculate your"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="118dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        android:background="#A072A8"
+        android:fontFamily="cursive"
+        android:paddingLeft="15sp"
+        android:text="AGE"
+        android:textColor="#0E0D0D"
+        android:textSize="40sp" />
+
+    <TextView
+
+        android:id="@+id/minutes"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="In Minutes"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:backgroundTint="#92599C"
+        android:fontFamily="cursive"
+        android:text="NEXT"
+        android:onClick="Next"
+        android:textColor="#0B0909"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
